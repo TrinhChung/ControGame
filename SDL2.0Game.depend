@@ -1,17 +1,21 @@
 # depslib dependency file v1.0
-1615279535 source:d:\sdl2.0_game\sdl2.0game\function.cpp
+1618071628 source:d:\sdl2.0_game\sdl2.0game\function.cpp
 	"function.h"
 
-1615274860 source:d:\sdl2.0_game\sdl2.0game\maingame.cpp
+1618049519 source:d:\sdl2.0_game\sdl2.0game\maingame.cpp
+	"mainGame.h"
+	<iostream>
 
-1615219580 source:d:\sdl2.0_game\sdl2.0game\monstergame.cpp
+1618071644 source:d:\sdl2.0_game\sdl2.0game\monstergame.cpp
+	"monsterGame.h"
 
-1615278439 d:\sdl2.0_game\sdl2.0game\function.h
+1617787355 d:\sdl2.0_game\sdl2.0game\function.h
 	<SDL.h>
 	<SDL_image.h>
 	<stdio.h>
+	<SDL_ttf.h>
+	<stdio.h>
 	<string>
-	"mainGame.h"
 
 1608572888 c:\sdl2-14\x86_64-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -388,15 +392,45 @@
 	"begin_code.h"
 	"close_code.h"
 
-1615279535 source:d:\sdl2.0_game\sdl2.0game\main.cpp
+1618072184 source:d:\sdl2.0_game\sdl2.0game\main.cpp
+	"monsterGame.h"
+	"Timer.h"
+
+1617844478 d:\sdl2.0_game\sdl2.0game\maingame.h
 	<SDL.h>
 	<SDL_image.h>
-	<stdio.h>
+	<iostream>
 	<string>
+	<vector>
+	<SDL_ttf.h>
 	"function.h"
 
-1615274860 d:\sdl2.0_game\sdl2.0game\maingame.h
-	<SDL.h>
-	<SDL_image.h>
-	<string>
+1615639428 source:d:\sdl2.0_game\sdl2.0game\color.cpp
+	"Color.h"
+
+1616897305 d:\sdl2.0_game\sdl2.0game\color.h
+	"SDL.h"
+	"function.h"
+	"mainGame.h"
+
+1616832642 source:d:\sdl2.0_game\sdl2.0game\event_mouse.cpp
+	"mainGame.h"
+
+1616832642 d:\sdl2.0_game\sdl2.0game\event_mouse.h
+	<SDL_ttf.h>
+
+1547322290 c:\sdl2_ttf-devel-2.0.15-mingw\sdl2_ttf-2.0.15\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1617093201 source:d:\sdl2.0_game\sdl2.0game\timer.cpp
+	"Timer.h"
+
+1617093201 d:\sdl2.0_game\sdl2.0game\timer.h
+	"SDL_ttf.h"
+	"string"
+
+1617781220 d:\sdl2.0_game\sdl2.0game\monstergame.h
+	"mainGame.h"
 
