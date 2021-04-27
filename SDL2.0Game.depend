@@ -1,20 +1,21 @@
 # depslib dependency file v1.0
-1618071628 source:d:\sdl2.0_game\sdl2.0game\function.cpp
+1619449790 source:d:\sdl2.0_game\sdl2.0game\function.cpp
 	"function.h"
 
-1618049519 source:d:\sdl2.0_game\sdl2.0game\maingame.cpp
+1619449362 source:d:\sdl2.0_game\sdl2.0game\maingame.cpp
 	"mainGame.h"
 	<iostream>
 
-1618071644 source:d:\sdl2.0_game\sdl2.0game\monstergame.cpp
+1619233752 source:d:\sdl2.0_game\sdl2.0game\monstergame.cpp
 	"monsterGame.h"
 
-1617787355 d:\sdl2.0_game\sdl2.0game\function.h
+1618756977 d:\sdl2.0_game\sdl2.0game\function.h
 	<SDL.h>
 	<SDL_image.h>
 	<stdio.h>
 	<SDL_ttf.h>
 	<stdio.h>
+	<SDL_mixer.h>
 	<string>
 
 1608572888 c:\sdl2-14\x86_64-w64-mingw32\include\sdl2\sdl.h
@@ -392,11 +393,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1618072184 source:d:\sdl2.0_game\sdl2.0game\main.cpp
+1619449592 source:d:\sdl2.0_game\sdl2.0game\main.cpp
 	"monsterGame.h"
-	"Timer.h"
+	"bien.h"
 
-1617844478 d:\sdl2.0_game\sdl2.0game\maingame.h
+1619449362 d:\sdl2.0_game\sdl2.0game\maingame.h
 	<SDL.h>
 	<SDL_image.h>
 	<iostream>
@@ -424,13 +425,35 @@
 	"begin_code.h"
 	"close_code.h"
 
-1617093201 source:d:\sdl2.0_game\sdl2.0game\timer.cpp
+1618675339 source:d:\sdl2.0_game\sdl2.0game\timer.cpp
 	"Timer.h"
 
-1617093201 d:\sdl2.0_game\sdl2.0game\timer.h
-	"SDL_ttf.h"
-	"string"
+1618675329 d:\sdl2.0_game\sdl2.0game\timer.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<stdio.h>
 
-1617781220 d:\sdl2.0_game\sdl2.0game\monstergame.h
+1619233752 d:\sdl2.0_game\sdl2.0game\monstergame.h
 	"mainGame.h"
+
+1619449790 d:\sdl2.0_game\sdl2.0game\bien.h
+	<ctime>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+
+1540998018 c:\sdl2_mixer-devel-2.0.4-mingw\sdl2_mixer-2.0.4\x86_64-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1618757932 source:d:\sdl2.0_game\sdl2.0game\menu.cpp
+	"Menu.h"
+
+1618758622 d:\sdl2.0_game\sdl2.0game\menu.h
+	"function.h"
 

@@ -11,15 +11,17 @@ class mainGame
 {
     public:
         SDL_RendererFlip flipType = SDL_FLIP_NONE;
-        const int MAIN_WIDTH=81;
-        const int MAIN_HEIGHT=100;
-        static const int MAIN_VEL = 6;
+        int MAIN_WIDTH=81;
+        int MAIN_HEIGHT=100;
+        static const int MAIN_VEL = 10;
         double degrees;
         mainGame();
+        bool bow=false;
         void render(LTexture &gFooTexture,SDL_Renderer* &gRenderer,SDL_Rect* clip);
-        void handleEvent( SDL_Event& e ,int WALKING_ANIMATION_FRAMES,SDL_Rect wall);
-        void setCamera( SDL_Rect& camera,int SCREEN_HEIGHT,int SCREEN_WIDTH,int LEVEL_HEIGHT,int LEVEL_WIDTH);
-        void move(SDL_Rect wall);
+        void handleEvent( SDL_Event& e ,int WALKING_ANIMATION_FRAMES,SDL_Rect wall,Mix_Chunk *gMedium);
+        void move(SDL_Rect wall,int g);
+        void setWidth_Height(int Width,int Height);
+        void setPosY(int y);
         int getPosX();
         int getPosY();
         bool onGround(SDL_Rect wall);

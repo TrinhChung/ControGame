@@ -8,9 +8,17 @@ public:
        int MON_HEIGHT;
        monsterGame();
       ~monsterGame();
+      int monsterVel;
       void render(LTexture &gFooTexture,SDL_Renderer* &gRenderer,SDL_Rect* clip);
-      bool move(int scrollingOffset,mainGame bossGame);
+      void move(int scrollingOffset,mainGame bossGame);
       void setWidth_Height(int width,int height);
+      bool collision;
+      bool monBack;
+      int g;
+      void set_gMon(int trongLuc);
+      void returnMon();
+      void setVel(int vel);
+
       void setPosX(int PosX);
       void setPosY(SDL_Rect wall,int val_Y);
       int getPosX();
